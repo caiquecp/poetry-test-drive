@@ -11,6 +11,8 @@
 - resolução das dependências
 - gestão de virtualenv OK
 - utilização em produção OK
+- plus: build (substitui setup.py/setuptools) e publicação
+- facilita uso de repositório privado (configura uma vez)
 
 ## Setup
 
@@ -84,3 +86,5 @@ Ativar venv.
 ```
 poetry shell
 ```
+
+[Poetry documentation](https://python-poetry.org/docs).
