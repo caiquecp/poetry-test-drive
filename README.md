@@ -1,19 +1,5 @@
 # Poetry test drive
 
-## TODO
-
-- instalação de dependências OK
-- atualização de dependências OK
-- lock OK
-- configuração do projeto OK
-- interação com ambientes virtuais e versões do python OK
-- interação com ci/cd OK
-- resolução das dependências
-- gestão de virtualenv OK
-- utilização em produção OK
-- plus: build (substitui setup.py/setuptools) e publicação OK
-- facilita uso de repositório privado (configura uma vez)
-
 ## Setup
 
 Quando se cria um projeto com Poetry através dos comandos new ou init, um dos artefatos mais importante é o arquivo pyproject.toml. Contém informações do projeto, versão do Python requerida, dependências e muito mais (além de servir para outras bibliotecas e recursos também).
