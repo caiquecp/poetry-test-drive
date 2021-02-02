@@ -11,7 +11,7 @@
 - resolução das dependências
 - gestão de virtualenv OK
 - utilização em produção OK
-- plus: build (substitui setup.py/setuptools) e publicação
+- plus: build (substitui setup.py/setuptools) e publicação OK
 - facilita uso de repositório privado (configura uma vez)
 
 ## Setup
@@ -20,11 +20,15 @@ Quando se cria um projeto com Poetry através dos comandos new ou init, um dos a
 
 ### Ambiente virtual
 
-O Poetry se responsabiliza pela criação do ambiente virtual. É possível configurar o Poetry para utilizar um diretório padrão para todos os venvs, ou até usar o diretório do próprio projeto - o que eu prefiro, por ser mais fácil de manter e configurar nas IDE.
+O Poetry se responsabiliza pela criação do ambiente virtual. É possível configurar o Poetry para utilizar um diretório padrão para todos os venvs, ou até usar o diretório do próprio projeto - o que eu prefiro, por ser mais fácil de manter e configurar nas IDE - para armazenar as dependências (venv).
 
 ### CI e ambientes além do dev
 
 Há duas alternativas: instalação e uso do Poetry, ou exportação das dependências para um arquivo requirements.txt. A segunda alternativa é muito mais fácil e funciona perfeitamente.
+
+### Bibliotecas
+
+O Poetry fornece comandos para construir (build) bibliotecas, substituindo o setuptools (setup.py), e publicar o pacote em repositórios públicos e privados. 
 
 ## Comandos
 
